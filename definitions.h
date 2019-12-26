@@ -13,42 +13,11 @@
 #define ON 1
 #define OFF 0
 
-#define redLED digOutput5
-#define greenLED digOutput6
-#define testPin3 digInput3
-#define testPin4 digInput4
-#define leftMotorCW digOutput23
-#define leftMotorCCW digOutput24
-#define rightMotorCW digOutput25
-#define rightMotorCCW digOutput26
-#define leftBumper digInput14
-#define rightBumper digInput7
-#define resetLatch digOutput21
-#define leftPhotoResistor digOutput11
-#define rightPhotoResistor digInput12
 
 /*
  * function definitions
  */
 
-void resetSRLatch();
 void setupPins();
-void turngreenLEDOn();
-void turngreenLEDOff();
-void turnRedLEDOn();
-void turnRedLEDOFF();
-void runRobotOS();
-void runTestSuite();
-void runMotorTest();
-void runBumperTest();
-void runLightTest();
-void moveForward();
-void moveBackward();
-void turnRight();
-void turnLeft();
-void theSequence();
-void turnLEDsOff();
-int checkBumpers();
-int checkLights();
 
 #endif // DEFINITIONS_H_ 
